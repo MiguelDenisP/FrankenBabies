@@ -1,0 +1,59 @@
+/** #"id" es para elementos identificados especificos **/
+
+body {
+    background-color: rgba(45, 185, 40, 0.425)
+}
+
+
+#titulo {
+    background-color: rgba(13, 48, 13, 0.281);
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px;
+    border-radius: 30px;
+   
+}
+
+/*imagen ciclo seccion 1 para centrar
+    
+#imagen-ciclo {
+     margin??
+
+}
+*/
+
+#menu {
+    background-image: url(https://wallpapercave.com/dwp1x/wp13120263.jpg);
+    text-align: center;
+    color:aliceblue
+}
+
+#seccion1 {
+    background-color: rgba(78, 177, 78, 0.397);
+}
+
+
+#seccion2 {
+    background-color: rgba(99, 207, 153, 0.308);
+}
+
+
+
+#seccion3 {
+    background-color: rgba(58, 129, 94, 0.308);
+}
+
+
+#seccion4 {
+    background-color: rgba(102, 211, 178, 0.507);
+}
+
+
+#inscripcion {
+    background-color: rgba(132, 204, 130, 0.425);
+    width:fit-content;
+    margin-left:auto;
+    margin-right:auto
+}

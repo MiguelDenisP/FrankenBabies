@@ -1,0 +1,200 @@
+/* Algunas Notas CSS::
+    Padding es para separarlo de la orilla si los tengo al borde
+    article es para varios textos de una sola cosa
+    display:in-line-block para unificar bloque elem del articulo
+    classes para un mismo id
+    <hr> es la barrita linea
+   
+    marging y padding pueden ser abreviados en (padding: updown leftright)
+    background: linear-gradient(90deg, color1, color2) el % pegado despues del color indica stop del color
+    border: width style color;
+    boxshadow: offsetX offsetY blurradius spreadradius color; 
+    
+    */
+
+
+body {
+    background-image: url(https://cutewallpaper.org/21/youtube-channel-wallpaper/Cute-Youtube-Wallpaper-2560x1440-Siboneycubancuisine.com.jpg);
+    padding: 20px
+}
+/* <hr> es la linea gris*/
+hr {
+    height:3px;
+    background-color:purple;
+    border-color: rgb(196, 117, 169);
+    height:4px;
+    width:90%;
+
+}
+p,h2 {
+    text-align: center;
+}
+
+#sector1 {
+
+    font-family: sans-serif, Arial;
+    color: rgb(226, 172, 204);
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgba(172, 20, 172, 0.781);
+    width:70%;
+    margin:auto;
+    padding: 1px
+
+}
+
+#sector1 h2, #sector1 p {
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+}
+
+/*Esto me permite tener ambos <p> en la misma linea */
+.bajada1 p {
+    display: inline-block;
+    width: 30%;
+   }
+
+#sector2 {
+
+    text-align: center;
+    color:rgba(93, 16, 100, 0.856);
+    background-color: rgba(184, 117, 161, 0.589);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+#sector2 h2 {
+    font-style: italic;
+    font-size:xx-large;
+    margin-bottom: 1px;
+}
+
+#sector2 p, #sector2 h2 {
+    margin-top: 1px;
+}
+
+.separator {
+    margin-bottom: 30px;
+}
+
+
+/*Experimental: alinear texto e imagen sin que se pierda uno al lado del otro
+    probando in-line block pero el texto queda abajo y si crece se pone arriba
+    No me funciona con figure aun
+    puedo fijar el width de la imagen mientras que auto la baja en vez de achicarla*/
+    .texto-imagen #texto2, #imagen2 {
+        display:inline-block;
+     
+      }
+
+#texto2 {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    width:70%;
+    
+}
+
+  #imagen2 {
+    width:auto;
+  }
+
+
+
+/*Sector 2.2   Divs de anya y ema*/
+
+
+/*Estos son las cajitas del sector 2.2 (Probando)*/
+#perrhijas div {
+    border-radius: 20%;
+    width: 40%;
+    display: inline-block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(56, 6, 26);
+
+
+    }
+
+#anya {
+    background: linear-gradient(90deg, rgba(128,0,128,0.3777)20%, rgba(206, 90, 206, 0.527));
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 1%;
+    box-shadow: -5px 5px 10px 5px rgba(128, 0, 128, 0.747);
+}
+
+#ema {
+    background: linear-gradient(0deg, rgba(128,0,128,0.3777)30%, rgba(206, 90, 206, 0.527));
+    margin-left: 1%;
+    box-shadow: 0 0 20px 5px rgba(128, 0, 128, 0.747);
+}
+
+
+
+
+
+
+/*Sector 3 */
+
+.sector3 {
+    background-color: rgba(26, 161, 161, 0.322);
+    width:60%;
+    margin: auto;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    }
+    
+.header {
+    font-style: italic;
+    font-size: small;
+    background-color: rgba(23, 5, 85, 0.144);
+    width: fit-content;
+    border-radius: 30%;
+ 
+ }
+
+#sector3 /*todo bajo el encabezado*/ {
+    text-align: center;
+    color: rgb(29, 4, 53);
+}
+
+
+
+
+
+
+/* Sector Falta por Probar  */
+
+.sectorFalta {
+    background-color: rgba(137, 43, 226, 0.438);
+    width:50%;
+    margin: auto;
+    padding:10px;
+    border-radius: 20px;
+    border: 4px double rgb(95,5,5);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(211, 164, 192)
+}
+
+
+/*Footer*/
+
+footer {
+    font-size: 15px;
+}
+
+/*Aqui algunos atributos al anchor element*/
+a {
+    color:rgb(224, 163, 214)
+}
+a:visited {color:rgb(112, 7, 72)}
+a:hover {color: rgb(240, 200, 226)}
+a:active {color: rgb(190, 14, 14)}
+
+

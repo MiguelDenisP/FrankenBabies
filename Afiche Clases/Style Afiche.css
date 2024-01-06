@@ -1,0 +1,164 @@
+
+
+ body {
+    background-image: url(https://wallpapercave.com/wp/wp12470274.jpg);
+    padding-top: 1%;
+}
+
+h1,h2,p {
+    text-align: center;
+     
+}
+
+
+   
+
+#titulo {
+    border-radius: 30px;
+    opacity: 80%;
+    background-color: rgba(52, 111, 150, 0.651);
+    width:95%;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 1px;
+    max-width: 1000px;
+    
+    
+     }
+
+     /*Aca para los font de la seccion*/
+#titulo h2 {
+    color:rgb(106, 216, 210);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-top: 1%;
+}
+
+#titulo p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:aqua;
+    margin-top: -1%;
+}
+
+
+
+#subtitulo {
+    border: 10px;
+    border-radius: 30px;
+    opacity: 80%;
+    background-color: rgba(57, 136, 125, 0.74);
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    padding: 1px;
+    max-width: 900px;
+
+}
+
+#subtitulo h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(173, 208, 209);
+    margin-top:1%;
+    
+}
+  
+#subtitulo p {
+    color:bisque;
+    margin-top:-1%
+}
+
+
+#bajada {
+    border: 10px;
+    border-radius: 30px;
+    opacity: 75%;
+    background-color: rgba(173, 180, 129, 0.623);
+    text-align:center;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 1px;
+    max-width: 800px;
+   
+    }
+
+    #bajada h3 {
+        color:azure;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+#bajada p {
+    color:antiquewhite;
+    
+}
+
+
+
+#contacto {
+    border: 10px;
+    border-radius: 30px;
+    opacity: 75%;
+    background-color: rgba(114, 113, 59, 0.61);
+    text-align:center;
+    width:40%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1%;
+    min-width: fit-content;
+}
+
+#contacto h2 {
+    margin-top:1%;
+    margin-bottom:1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color:rgb(169, 197, 157)
+}
+
+
+#correo p, #correo img{
+    display:inline-block
+ 
+}
+
+#correo img {
+    width:25px;
+}
+
+#telefono p, #telefono img {
+    display: inline-block;
+}
+
+#telefono img {
+    width: 25px;
+}
+
+#contacto p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(230, 222, 201)
+}
+
+#modalidad p, #modalidad img {
+    display: inline-block;
+}
+
+#modalidad img {
+    width: 25px;
+}
+footer {
+    text-align: center;
+    margin-top: 5%;
+
+
+}
+/*Aqui algunos ajustes al link*/
+a {
+    color:whitesmoke
+}
+a:visited {color:beige}
+a:hover {color: blue}
+a:active {color: white}
+
