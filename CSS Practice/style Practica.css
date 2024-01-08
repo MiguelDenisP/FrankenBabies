@@ -12,6 +12,9 @@
     
     */
 
+* {
+    box-sizing: border-box;
+}
 
 body {
     background-image: url(https://cutewallpaper.org/21/youtube-channel-wallpaper/Cute-Youtube-Wallpaper-2560x1440-Siboneycubancuisine.com.jpg);
@@ -55,6 +58,19 @@ p,h2 {
     width: 30%;
    }
 
+#protoflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: auto;
+    gap:5px;
+    
+}
+
+#protoflex p {
+    margin: auto;
+}
+
 #sector2 {
 
     text-align: center;
@@ -63,6 +79,7 @@ p,h2 {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    overflow: auto;
 
 }
 
@@ -147,7 +164,7 @@ p,h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-bottom: 10px;
     padding-top: 10px;
-    padding-left: 10px;
+  
     }
     
 .header {
@@ -156,12 +173,38 @@ p,h2 {
     background-color: rgba(23, 5, 85, 0.144);
     width: fit-content;
     border-radius: 30%;
+    margin:5px
  
  }
 
 #sector3 /*todo bajo el encabezado*/ {
     text-align: center;
     color: rgb(29, 4, 53);
+}
+
+/*Cajas Flex del Sector 3.1
+   flex-wrap para que bajen si se pasan
+                */
+
+.flexmode {
+   display:flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   overflow: auto;
+   
+   gap:5px;
+   padding: 0 5px;
+  
+
+   
+
+}
+
+.flex { 
+    border: 2px solid black;
+    padding:4px;
+   
+  
 }
 
 
