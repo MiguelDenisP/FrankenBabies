@@ -1,2 +1,2 @@
 # First Proyects
-As i learnt the very basics
+Testing features as I learnt the very basics
