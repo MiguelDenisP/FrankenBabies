@@ -1,0 +1,200 @@
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:0;
+
+    
+}
+.header {
+    background-color: rgb(33, 23, 14);
+    color:whitesmoke;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em 3em 0.5em 1em;
+
+}
+.header img {
+    max-height: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+
+#headerlinks {
+    display:flex;
+    gap: 2.5em
+}
+
+.front {
+    background-color: rgb(33, 23, 14);
+    height: 50vh;
+}
+
+h2 {
+    font-size: 3rem;
+
+}
+
+
+/* DECLARACION */
+
+#declaracion {
+
+    width:60vw;
+    margin:auto;
+    color:rgb(33, 23, 14);
+    text-align: center;
+
+}
+
+
+/*PORTAFOLIO*/
+
+.portafolionav {
+
+    width:fit-content;
+    margin:auto;
+    text-align: center;
+    display:flex;
+    flex-flow:column;
+
+}
+.portafoliolinks {
+    margin-top: -40px;
+}
+
+.portafoliolinks span {
+    margin:0.2rem;
+    font-size: 0.9rem;
+    color:grey;
+}
+
+.portafoliolinks span:hover {
+    color:rgb(33, 23, 14);
+    
+}
+
+.carruselportafolio {
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    gap:1rem;
+    margin:0 1rem;
+
+}
+
+.minifolio {
+    background-color: rgb(33, 23, 14);
+    border: 2px solid black;
+    flex-basis:33%;
+
+}
+
+#minifolio1 img {
+    width:fit-content
+    
+}
+
+
+/*SECTION SOBRE MI*/
+
+#sobremi {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width:60vw;
+    margin:auto;
+}
+
+#textosobremi {
+    display:flex;
+    flex-flow: column;
+    overflow: auto;
+    font-size: 0.9rem;
+    width:50%;
+    min-width: 400px;
+ }
+
+#textosobremi h2, #textosobremi p {
+    margin:0.1rem
+}
+
+
+/*SECITION BROADCAST
+    Algunos valores de clase están en sección indexportafolio */
+
+.portafolionav p {
+    margin-bottom: 0px;
+}
+
+.portafolionav h2 {
+    margin-top: 0;
+}
+
+
+
+/*INDEX REDES SOCIALES*/
+
+#redessociales {
+   
+    width: fit-content;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#redessociales p{
+    margin-bottom: -5px;
+}
+
+#iconos {
+    display:flex;
+    flex-flow: row;
+}
+
+#iconos img {
+    max-width: 80px;
+}
+
+
+
+
+
+
+/*FOOTER*/
+
+footer {
+    display:flex;
+    flex-flow:row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(33, 23, 14);
+    color:whitesmoke;
+    padding: 1rem 2rem
+}
+
+footer img {
+    max-height: 40px;
+}
+
+
+/*OTROS*/
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight:800
+}
+
+.vermas {
+    display: flex;
+    justify-content: center;
+}

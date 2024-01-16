@@ -1,16 +1,142 @@
+
 * {
     box-sizing: border-box; 
 }
 
-div {
-    border: 2px solid black;
-    margin: 0 auto auto;
+/*Acá parte el estilo general*/
+
+body {
+    /*background: linear-gradient(45deg, rgb(19, 124, 19), rgb(158, 57, 57), rgb(176, 187, 19));*/
+    background: url(https://wallpapercave.com/wp/wp12470274.jpg)
 }
 
+.caption {
+    font-size: .8em;
+}
+
+#titulo {
+    background-color: rgba(6, 63, 14, 0.815);
+    text-align: center;
+    font-size: 1.1em;
+    color: rgb(201, 212, 79);
+    padding: 0.3em;
+}
+
+#titulo p {
+    margin-top: -1em;
+}
+
+#section0 {
+    width:60%;
+    padding:0.5em;
+    margin:auto;
+    background-color: rgba(168, 111, 37, 0.452);
+    text-align: center;
+    font-size: 0.8em;
+    border-radius: 5%;
+    color: rgb(207, 223, 150);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.sectionfooter {
+    text-align: center;
+}
 
 .textoimagen {
     display: flex;
     flex-direction: row;
-    overflow: auto;
-   
+    flex-wrap: wrap;
+    overflow:hidden;
+    justify-content:space-between;
+    width:90%;
+    background-color: rgba(139, 201, 88, 0.788);
+    border-radius: 6%;    
+   }
+
+.textoimagen h3 {
+    text-align: center;
+    font-size: 1.7em;
+}
+
+
+.textosector {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+
+.sectorbody {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly;
+    font-size: 1.1em;
+
+}
+
+
+
+.boton {
+    width: auto;
+    border: 1px solid black;
+    border-radius: 20%;
+    background: linear-gradient(50deg, rgb(17, 70, 17), rgb(69, 109, 31));
+    color: wheat;
+    padding:0 1em;
+    box-shadow: 0 0 5px 2px yellowgreen
+
+}
+
+.boton:hover {
+    background: linear-gradient(50deg, rgb(24, 124, 21), rgb(119, 219, 73));
+    transition: 1s;
+}
+
+
+
+
+
+.imagensector img {
+    max-height: 20em;
+    max-width: 30em;
+}
+
+#textoimagen1 {
+    background-color: rgba(52, 75, 7, 0.719);
+    color:blanchedalmond
+}
+
+#textoimagen2 {
+    margin: auto 0 auto auto;
+    background-color: rgba(77, 19, 46, 0.623);
+    color:blanchedalmond
+}
+
+#textoimagen3 {
+    background-color: rgba(100, 99, 19, 0.767);
+    color:bisque
+}
+
+#textoimagen4 {
+    margin: auto 0 auto auto;
+
+    background-color: rgba(100, 32, 64, 0.623);
+    color:blanchedalmond
+}
+
+#textoimagen5 {
+    background-color: rgba(12, 68, 31, 0.705);
+    color:blanchedalmond
+    
+}
+
+footer {
+    text-align: center;
+    color:rgb(130, 168, 40)
+}
+
+a {
+    color:inherit;
 }
